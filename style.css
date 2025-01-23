@@ -1,2 +1,43 @@
 
+.conteiner{
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(4,1fr);
+  width: 150px;
+  
+}
 
+
+.calculate{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 5px;   
+ background-color: rgb(157, 0, 255);   
+ padding: 10px; 
+ height: 150px; 
+} 
+
+.display{
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ background-color: rgb(5, 5, 27);
+ color: white ;
+   
+}
+
+.row2{
+  grid-column: span 4;
+}
+
+.teclasomar{
+  grid-row: span 2;
+}
+
+.tecla{
+  border-radius: 50%;
+  border: none;
+  background-color: blue;
+  opacity: 80%;
+  color: white;
+
+}
